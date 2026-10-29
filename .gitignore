@@ -1,0 +1,15 @@
+# Environnements et secrets
+.venv/
+.env
+.env.*
+!.env.example
+
+# Fichiers générés
+__pycache__/
+.pytest_cache/
+data/
+chroma_db/
+
+# Frontend
+node_modules/
+dist/
